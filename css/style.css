@@ -102,8 +102,7 @@ nav a:focus {
 }
 
 .intro {
-  background-image: url("../images/header.jpg");
-  background-color: #DDDDDD;
+  background: url("../images/header.jpg") #858585;
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -142,7 +141,8 @@ img {
 }
 
 .text {
-  text-align: center;
+  justify-self: center;
+  align-self: center;
   max-height: 25vh;
   overflow: scroll;
 }
@@ -175,7 +175,7 @@ img {
     grid-column: 3/span 2;
   }
 
-  .clients, .contact, .about-image, .method.image {
+  .clients, .contact, .about-image, .method-image {
     grid-column: 2/span 2;
   }
 
