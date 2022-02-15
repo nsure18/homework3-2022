@@ -93,6 +93,7 @@ a.skip{
 
 nav a:focus {
   border-top: solid 2px yellow;
+  outline: none;
 }
 
 .container{
@@ -102,7 +103,8 @@ nav a:focus {
 }
 
 .intro {
-  background: url("../images/header.jpg") #858585;
+  background-image: url("../images/header.jpg"); 
+  background-color: #858585;
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -163,6 +165,9 @@ img {
     position: absolute;
     left: 0px;
     top: 20px;
+    border-top: solid 2px yellow;
+    outline: none;
+
   }
 
   .container {
